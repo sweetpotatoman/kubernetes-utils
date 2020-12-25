@@ -58,7 +58,7 @@
 这里 [插件列表](https://krew.sigs.k8s.io/plugins/) 下的都是可用的
 ![kubectx](images/kubectx-demo.gif)
 ![kubens](images/kubens-demo.gif)
-    - `k ctx` 切换 kubeconfig current-context **(可以当作是切换 k8s 集群)**   
+    - `k ctx` 切换 kubeconfig current-context **(可以当作是切换 k8s 集群)**   
     - `k ns` 切换 kubeconfig current-namespace **(可以当作是切换当前 k8s 集群的命名环境)**
 
 - **kube-prompt**   
@@ -66,7 +66,7 @@
   ![kube-prompt.git](images/kube-prompt.gif)
 
 - **kube-ps1**  
-其实就是一个 **bash** 脚本，该脚本会在终端上显示当前 **kubeconfig** 上下文和命名空间的配置
+其实就是一个 **bash** 脚本，该脚本会在终端上显示当前 **kubeconfig** 上下文和命名空间的配置
 ![kube-ps1](images/kube-ps1.gif)  
     ```
     kubeon     : turn on kube-ps1 status for this shell.  Takes precedence over
