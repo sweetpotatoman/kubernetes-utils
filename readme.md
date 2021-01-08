@@ -85,3 +85,4 @@
 ## Roadmap
 * [kube-shell](https://github.com/cloudnativelabs/kube-shell)
 * [fzf](https://github.com/junegunn/fzf)
+* [kubetail](https://github.com/johanhaleby/kubetail)
