@@ -3,8 +3,8 @@
 #########################################################
 # Function :kubernetes-utils                            #
 # Platform :macos or linux                              #
-# Version  :1.0                                         #
-# Date     :2020-12-25                                  #
+# Version  :1.1                                         #
+# Date     :2021-03-10                                  #
 # Author   :potato                                      #
 # Contact  :sweetpotatolinjl@gmail.com                  #
 #########################################################
