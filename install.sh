@@ -126,9 +126,9 @@ KREW=./krew-"${current_system_type}"_amd64
 echo "export PATH=\${PATH}:\${HOME}/.krew/bin" >> "${current_shell_path}"
 
 # 安装 kube-prompt
-log_info "正在下载\033[31m kube-prompt [amd64]\033[0m"
-curl -# -L -O https://github.com/c-bata/kube-prompt/releases/download/v1.0.10/kube-prompt_v1.0.10_"${current_system_type_type}"_amd64.zip
-unzip kube-prompt_v1.0.10_"${current_system_type_type}"_amd64.zip
+log_info "正在下载\033[31m kube-prompt v1.0.11 版本 [amd64]\033[0m"
+curl -# -L -O https://github.com/c-bata/kube-prompt/releases/download/v1.0.11/kube-prompt_v1.0.11_"${current_system_type_type}"_amd64.zip
+unzip kube-prompt_v1.0.11_"${current_system_type_type}"_amd64.zip
 chmod +x kube-prompt
 sudo mv ./kube-prompt /usr/local/bin/kube-prompt
 
