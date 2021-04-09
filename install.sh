@@ -4,7 +4,7 @@
 # Function :kubernetes-utils                            #
 # Platform :macos or linux                              #
 # Version  :1.1                                         #
-# Date     :2021-03-10                                  #
+# Date     :2021-04-09                                  #
 # Author   :potato                                      #
 # Contact  :sweetpotatolinjl@gmail.com                  #
 #########################################################
@@ -34,11 +34,11 @@ echo -n "请输入需要安装的 kubectl 版本 --- v1.xx.x [default: latest]: 
 read kubectl_version
 [ -z "$kubectl_version" ] && kubectl_version="$(curl -# https://storage.googleapis.com/kubernetes-release/release/stable.txt)"
 
-if [ $(uname) == "Darwin" ]; then
+if [ $(uname) = "Darwin" ]; then
     current_system_type="darwin"
-elif [ $(expr substr $(uname -s) 1 5) == "Linux" ]; then   
+elif [ $(expr substr $(uname -s) 1 5) = "Linux" ]; then   
     current_system_type="linux"
-elif [ $(expr substr $(uname -s) 1 10) == "MINGW32_NT" ]; then    
+elif [ $(expr substr $(uname -s) 1 10) = "MINGW32_NT" ]; then    
     log_err "目前还没有支持 windows ~~~"
 else
     log_err "没找到你的系统是什么"
